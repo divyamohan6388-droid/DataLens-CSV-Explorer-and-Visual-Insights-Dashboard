@@ -1,0 +1,5 @@
+# Ignore datasets and temporary files
+retail_sales.csv
+*.csv
+.ipynb_checkpoints/
+__pycache__/
