@@ -19,28 +19,28 @@
 
 ## ✨ Features
 
-- 📁 **CSV Loading** — Load and inspect any CSV dataset using Pandas
-- 🔍 **Data Exploration** — Shape, dtypes, missing values, and statistical summary
-- 📐 **Column Averages** — Revenue, Units Sold, Price, Rating, and Discount averages
-- 📊 **Bar Chart** — Total revenue comparison across product categories
-- 🔵 **Scatter Plot** — Relationship between units sold and revenue with trend line
-- 🌡️ **Heatmap** — Average revenue grid across City × Category combinations
-- 💡 **Insights** — Business observations derived from each visualization
+-  **CSV Loading** — Load and inspect any CSV dataset using Pandas
+-  **Data Exploration** — Shape, dtypes, missing values, and statistical summary
+-  **Column Averages** — Revenue, Units Sold, Price, Rating, and Discount averages
+-  **Bar Chart** — Total revenue comparison across product categories
+-  **Scatter Plot** — Relationship between units sold and revenue with trend line
+-  **Heatmap** — Average revenue grid across City × Category combinations
+-  **Insights** — Business observations derived from each visualization
 
 ---
 
-## 🗂️ Project Structure
+### 📂 Project Structure
 
+```text
+DataLens-CSV-Explorer-and-Visual-Insights-Dashboard/
+├── DataLens_CSV_Explorer.ipynb  # Main Jupyter Notebook containing dashboard logic & EDA
+├── .gitignore                   # Configuration file to ignore temporary and large data files
+├── LICENSE                      # MIT Open-source license documentation
+└── README.md                    # Project documentation, setup guide, and key insights
 ```
-DataLens/
-│
-├── DataLens_CSV_Explorer.ipynb   # Main Jupyter Notebook (all steps)
-├── retail_sales.csv              # Sample dataset (200 rows × 9 columns)
-├── bar_chart.png                 # Visualization 1 output
-├── scatter_plot.png              # Visualization 2 output
-├── heatmap.png                   # Visualization 3 output
-└── README.md                     # This file
-```
+
+> 📊 **Note on Files:** The source dataset (`retail_sales.csv`) and generated charts (`.png`) are managed locally and excluded from this repository via `.gitignore` to maintain a clean workspace. All visualizations and plots render interactively directly inside the Jupyter Notebook.
+
 
 ---
 
